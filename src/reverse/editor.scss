@@ -1,0 +1,11 @@
+@media (max-width: 782px) {
+	.reverse-on-mobile {
+		flex-direction: column-reverse;
+	}
+}
+
+@media (min-width: 782px) {
+	.reverse-on-desktop {
+		flex-direction: row-reverse;
+	}
+}
